@@ -1,0 +1,37 @@
+
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.form-control label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.form-control input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgba(142, 112, 250, 0.568);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .8px;
+}
+
+.submit-btn {
+    border:1px solid rgba(71, 20, 255, 0.966) ;
+    padding: 10px 25px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background: rgb(97, 55, 250);
+    color: rgb(255, 255, 255);
+}
+.submit-btn:hover{
+    border:1px solid white ;
+    background: linear-gradient(to right, rgba(71, 20, 255, 0.966) , rgb(17, 17, 17) );
+}
